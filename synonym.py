@@ -16,19 +16,68 @@ labl.pack(pady=15)
 entry = Entry(root, width=40)
 entry.pack(pady=15)
 
-dictionary={
-    "happy":['delighted', 'joyful', 'elated'],
-    "sad":['somber', 'dejected', 'upset'],
-    "cold":['frigid', 'chilly', 'icy'],
-    "hot":['scorching', 'warm', 'fiery'],
-    "expensive":['lavish', 'costly', 'extravagant'],
-    "cheap":['afforable', 'reasonable', 'economical'],
-    "good":['excellent', 'wonderful', 'incredible'],
-    "bad":['abysmal', 'terrible', 'horrible'],
-    "strong":['tough', 'sturdy', 'hefty'],
-    "weak":['flimsy', 'delicate', 'fragile']
-    
-    }
+dictionary = {
+    "happy": ['delighted', 'joyful', 'elated'],
+    "sad": ['somber', 'dejected', 'upset'],
+    "cold": ['frigid', 'chilly', 'icy'],
+    "hot": ['scorching', 'warm', 'fiery'],
+    "expensive": ['lavish', 'costly', 'extravagant'],
+    "cheap": ['affordable', 'reasonable', 'economical'],
+    "good": ['excellent', 'wonderful', 'incredible'],
+    "bad": ['abysmal', 'terrible', 'horrible'],
+    "strong": ['tough', 'sturdy', 'hefty'],
+    "weak": ['flimsy', 'delicate', 'fragile'],
+    "fast": ['quick', 'swift', 'speedy'],
+    "slow": ['lethargic', 'sluggish', 'unhurried'],
+    "smart": ['intelligent', 'bright', 'clever'],
+    "dumb": ['unintelligent', 'dimwitted', 'foolish'],
+    "big": ['large', 'huge', 'enormous'],
+    "small": ['tiny', 'petite', 'minuscule'],
+    "beautiful": ['gorgeous', 'stunning', 'lovely'],
+    "ugly": ['unattractive', 'hideous', 'unsightly'],
+    "loud": ['noisy', 'boisterous', 'deafening'],
+    "quiet": ['silent', 'hushed', 'soft'],
+    "rich": ['wealthy', 'affluent', 'prosperous'],
+    "poor": ['needy', 'destitute', 'impoverished'],
+    "clean": ['spotless', 'immaculate', 'tidy'],
+    "dirty": ['filthy', 'grimy', 'unclean'],
+    "funny": ['amusing', 'hilarious', 'witty'],
+    "boring": ['dull', 'tedious', 'monotonous'],
+    "friendly": ['amiable', 'cordial', 'welcoming'],
+    "mean": ['cruel', 'rude', 'spiteful'],
+    "bright": ['luminous', 'radiant', 'vivid'],
+    "dark": ['dim', 'gloomy', 'shadowy'],
+    "easy": ['simple', 'effortless', 'straightforward'],
+    "hard": ['difficult', 'challenging', 'tough'],
+    "tired": ['exhausted', 'weary', 'fatigued'],
+    "energetic": ['lively', 'active', 'vigorous'],
+    "angry": ['mad', 'furious', 'irate'],
+    "calm": ['peaceful', 'tranquil', 'serene'],
+    "honest": ['truthful', 'sincere', 'upright'],
+    "dishonest": ['deceitful', 'untruthful', 'fraudulent'],
+    "old": ['ancient', 'elderly', 'aged'],
+    "young": ['youthful', 'juvenile', 'fresh'],
+    "lazy": ['idle', 'sluggish', 'inactive'],
+    "hardworking": ['diligent', 'industrious', 'dedicated'],
+    "fat": ['chubby', 'plump', 'overweight'],
+    "thin": ['slim', 'lean', 'skinny'],
+    "nice": ['pleasant', 'kind', 'agreeable'],
+    "rude": ['impolite', 'disrespectful', 'abrasive'],
+
+    # Coding/Programming terms
+    "bug": ['error', 'glitch', 'issue'],
+    "fix": ['patch', 'resolve', 'correct'],
+    "code": ['script', 'program', 'source'],
+    "debug": ['troubleshoot', 'analyze', 'test'],
+    "function": ['method', 'procedure', 'routine'],
+    "variable": ['identifier', 'name', 'symbol'],
+    "loop": ['iteration', 'cycle', 'repeat'],
+    "crash": ['fail', 'halt', 'break'],
+    "compile": ['build', 'translate', 'assemble'],
+    "deploy": ['launch', 'release', 'publish'],
+    "optimize": ['improve', 'enhance', 'refactor'],
+    "database": ['data store', 'repository', 'storage']
+}
 
 def find():
     word = entry.get().lower()  
